@@ -18,7 +18,7 @@ const Navbar = () => {
           <li key={index}>
             <Link
               href={`/${item.toLowerCase()}`}
-              className="relative block w-max font-medium uppercase tracking-wide text-gray-400 hover:text-white transition duration-200"
+              className="relative block w-max font-medium uppercase tracking-wide text-gray-400 hover:line-through hover:s transition duration-200"
             >
               {item}
               {/* Underline Effect */}
